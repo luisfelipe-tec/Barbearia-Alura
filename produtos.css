@@ -15,8 +15,8 @@ nav li{
 
     display: inline;
    
-    /*Solução que achei mais simples
-    margin-left: 15px;*/
+    /*Solução que achei mais simples*/
+    margin-left: 15px;
     /*Solução utilizada no curso*/
     margin: 0 0 0 15px;
 }
