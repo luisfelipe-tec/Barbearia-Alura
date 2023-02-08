@@ -80,23 +80,7 @@ nav a:hover {
   font-weight: bold;
   margin-top: 10px;
 }
-
-footer {
-  text-align: center;
-  background: url("imagens/bg.jpg");
-  padding: 40px 0;
-}
-
-.copyright {
-  color: #ffffff;
-  font-size: 13px;
-  margin: 20px 0 0;
-}
-
-main {
- 
-}
-
+/*CSS página contato*/
 form {
   margin: 40px 0;
 }
@@ -151,6 +135,18 @@ td,
 th {
   border: 1px solid;
   padding: 15px 8px;
+}
+
+footer {
+  text-align: center;
+  background: url("imagens/bg.jpg");
+  padding: 40px 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
 }
 
 /*css da página inicial*/
@@ -257,15 +253,22 @@ th {
     width: auto;
 
   }
+
   h1{
     text-align: center;
+    
 
   }
   nav{
     position: static;
+
     
   }
-  .lista-beneficios, .imagembeneficios{
-    width: 100%;
+  .produtos li{
+    width: 95vw;
   }
+  .lista-beneficios, .imagembeneficios,  .produtos{
+    width: 100vw;
+  }
+  
 }
